@@ -1,3 +1,4 @@
+# Strings and Text
 type_of_people = 19
 x =f"There are {type_of_people} types of people."
 
