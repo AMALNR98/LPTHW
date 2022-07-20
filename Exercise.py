@@ -21,7 +21,8 @@ print("Oh, that's why it's false.")
 print("How about some more")
 print("Is it greater?", 5> -2)
 print("Is it greater or equal?",5 >= -2)
-print("Is it less or equel?",5<= -2)# Variables and Name
+print("Is it less or equel?",5<= -2)
+# Variables and Name
 cars = 100
 space_in_a_car =4.0
 drivers = 30
@@ -37,7 +38,8 @@ print("There are only",drivers, "drivers available.")
 print("There will be", cars_not_driven,"empty cars today.")
 print("We can transport", carpool_capacity, "people today.")
 print("We have " ,passengers,"to carpool today.")
-print("We need to put about ", average_passengers_per_car,"in each car")# More Variables and Printing
+print("We need to put about ", average_passengers_per_car,"in each car")
+# More Variables and Printing
 my_name = 'Amal N R'
 my_age = 24 #satyayittum
 my_height = 64 #inches
@@ -77,7 +79,8 @@ print(joke_evaluation.format(hilarious))
 w = "This is the left side of..."
 e = "a string with a right side."
 
-print(w+e)print("hi")# More printing
+print(w+e)print("hi")
+# More printing
 print("Mary had a little lamb.")
 print("Its fleece was white as {}.".format('snow'))
 print("And everywhere that Mary went.")
@@ -109,4 +112,18 @@ print(formatter.format(
     "Own text here",
     "Maybe a poem",
     "Or a song about fear"
-))
+))# What Was That
+tabby_cat = "\tI'm tabbed in."
+persian_cat ="I'm split\non a line."
+backlash_cat = "I'm \\ a\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+print(tabby_cat)
+print(persian_cat)
+print(backlash_cat)
+print(fat_cat)
