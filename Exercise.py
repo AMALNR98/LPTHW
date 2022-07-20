@@ -114,7 +114,9 @@ print(formatter.format(
     "Own text here",
     "Maybe a poem",
     "Or a song about fear"
-))# What Was That
+    ))
+ex11-20
+# What Was That
 tabby_cat = "\tI'm tabbed in."
 persian_cat ="I'm split\non a line."
 backlash_cat = "I'm \\ a\ cat."
@@ -254,3 +256,18 @@ print("Alwright, all done.")
 
 out_file.close()
 in_file.close()
+=======
+))#.Here's some new strange dtuff, remeber type it exactly
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months ="jan\nFeb\nMar\nApr\nMay\nJun\nAug"
+
+print("Here are the days: ", days)
+print("Here are the months:", months)
+
+print("""
+There's something going on there.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want. or 5, or 6""")
+main
