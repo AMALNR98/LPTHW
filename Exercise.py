@@ -98,4 +98,15 @@ end12 = "r"
 
 #watch that comma at the end. try removing it to see what happens
 print(end1 + end2 + end3 + end4 + end5+ end6 , end=' ')
-print(end7 + end8 + end9 + end10 + end11 + end12)
+print(end7 + end8 + end9 + end10 + end11 + end12)formatter = "{} {} {} {}"
+
+print(formatter.format(1, 2, 3, 4))
+print(formatter.format("one", "two", "three", "four"))
+print(formatter.format(True, False, False, True))
+print(formatter.format(formatter, formatter, formatter, formatter))
+print(formatter.format(
+    "Try your",
+    "Own text here",
+    "Maybe a poem",
+    "Or a song about fear"
+))
