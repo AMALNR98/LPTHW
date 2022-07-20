@@ -79,7 +79,8 @@ print(joke_evaluation.format(hilarious))
 w = "This is the left side of..."
 e = "a string with a right side."
 
-print(w+e)print("hi")
+print(w+e)
+print("hi")
 # More printing
 print("Mary had a little lamb.")
 print("Its fleece was white as {}.".format('snow'))
@@ -101,7 +102,8 @@ end12 = "r"
 
 #watch that comma at the end. try removing it to see what happens
 print(end1 + end2 + end3 + end4 + end5+ end6 , end=' ')
-print(end7 + end8 + end9 + end10 + end11 + end12)formatter = "{} {} {} {}"
+print(end7 + end8 + end9 + end10 + end11 + end12)
+formatter = "{} {} {} {}"
 
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("one", "two", "three", "four"))
@@ -152,3 +154,26 @@ print("Your first variable is :",first)
 print("Your second variable is :",second)
 print("Your third variable is:", third) 
  
+#Prompting and Passing
+from sys import argv
+
+from click import prompt
+
+script, user_name =argv
+prompt ='>'
+print(f"Hi{user_name}, I'm the {script}script")
+print("I'd like to ask you a few questions.")
+print(f"Do you like me {user_name}?")
+likes = input(prompt)
+
+print(f"Where do you live {user_name}?")
+lives = input(prompt)
+
+print("what kind of computer do you have?")
+computer = input(prompt)
+
+print(f"""
+Alright, so you said {likes} about liking me.
+You live in {lives}. Not sure where that is.
+And you have a {computer} computer. Nice.
+""")
