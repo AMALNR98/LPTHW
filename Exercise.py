@@ -140,3 +140,15 @@ height = input("How tall are you")
 weight = input("How much do you weight")
 
 print(f"So, you're {age}old, {height} tall and {weight} heavy.")
+# Parameters, Unpacking, Variables
+from sys import argv
+# read the WYSS section for how to run this
+print(argv)
+script, first, second, third = argv
+
+
+print("The script is calld:", script)
+print("Your first variable is :",first)
+print("Your second variable is :",second)
+print("Your third variable is:", third) 
+ 
